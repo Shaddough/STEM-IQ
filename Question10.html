@@ -1,0 +1,27 @@
+<html>
+    <head>
+    <title>STEM Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="question10.js"></script>
+    </head>
+    <body onload = "showscore()">
+        <audio id = "correct" src = "The Price is Right Ding - Gaming Sound Effect (HD).mp3"></audio>
+        <audio id = "wrong" src = "Buzzer Wrong Answer - Gaming Sound Effect (HD).mp3"></audio>
+        <center>
+        <h1 style="text-decoration:underline;">STEM Quiz</h1>
+        <span style = "float:right; margin-top:-120px; margin-right: 50px; font-weight: bold; color:yellow;">Score: <b id="score"></b> </span>
+        <div style="text-decoration:underline;">
+            Quiz on Science, Technology, Engineering and Mathematics
+            
+        </div>
+        <br>
+        <b>Question 10:</b> Method used to help drones to cope with new and unkown weather and wind condition
+        <br>
+        <h3 id="callresult"></h3>
+        <button onclick ="correctopt()" id="option1" width="20%">Neural fly</button>
+        <button onclick ="wrongopt1()" id="option2" width="20%">Flight mode</button>
+        <button onclick ="wrongopt2()" id="option3" width="20%">GPS Navigation</button>
+        <button onclick ="wrongopt3()" id="option4" width="20%">Fail Safe</button>
+        </center>
+    </body>
+</html>
